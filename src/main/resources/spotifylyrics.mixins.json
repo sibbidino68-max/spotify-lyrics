@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "dev.spotifylyrics",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["SkyMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

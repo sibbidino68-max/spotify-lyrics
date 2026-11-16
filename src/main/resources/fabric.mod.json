@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifylyrics",
+  "version": "${version}",
+  "name": "Spotify Lyrics",
+  "description": "Zeigt Spotify-Lyrics dort an, wo du hinschaust. Eigene Designs und eigene Himmel.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.spotifylyrics.LyricsMod"] },
+  "mixins": ["spotifylyrics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
